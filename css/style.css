@@ -1,0 +1,655 @@
+/* Global CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-1{
+    width: 8.33%;
+    float: left;
+}
+.col-2{
+    width: 16.66%;
+    float: left;
+}
+.col-3{
+    width: 25%;
+    float: left;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+}
+.col-5{
+    width: 41.66%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-7{
+    width: 58.33%;
+    float: left;
+}
+.col-8{
+    width: 66.66%;
+    float: left;
+}
+.col-9{
+    width: 75%;
+    float: left;
+}
+.col-10{width: 83.33%;
+    float: left;
+}
+
+.col-11{width: 91.66%;
+    float: left;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.row {
+width: 100%;
+}
+
+section{
+    float: left;
+    width: 100%;
+}
+
+.primary-color{
+    color: #756aff;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Global CSS End */
+
+/* Topbar Section CSS */
+.topbar{
+
+background: url(../image/banner-bg.png);
+
+background-repeat: no-repeat;
+
+background-position: center;
+
+background-size: cover;
+
+min-height: 720px;
+
+padding: 40px 0;
+}
+
+.topbar .topbar-logo img{
+
+width: 55%;
+}
+.topbar .topbar-menu{
+
+float: right;
+}
+
+.topbar .nav-bar{
+
+list-style: none;
+
+margin: 15px 0;
+}
+
+.topbar .nav-item {
+
+display: inline;
+
+margin: 0 5px;
+
+padding: 5px;
+
+text-transform: uppercase;
+}
+
+
+.topbar .nav-item .nav-link {
+
+color: #d6d6d6;
+
+text-decoration: none;
+
+font-size: 16px;
+}
+
+
+.topbar .nav-item .nav-link:hover {
+    color: #fff;
+}
+
+
+.topbar .nav-item .active-link {
+    color: #fff;
+}
+
+.topbar .nav-item .nav-btn {
+    
+border: 1px solid #fff;
+    
+border-radius: 25px;
+    
+padding: 10px 35px;
+}
+
+
+.topbar .nav-item .nav-btn:hover {
+    background: #fff;
+    color: #2D8BFD;
+}
+
+
+.topbar .hero-section{}
+
+.topbar .hero-box1 {
+    margin: 150px 0;
+}
+
+.topbar .hero-box1 h1 {
+
+color: #fff;
+
+font-size: 50px;
+
+line-height: 1.2;
+
+text-transform: uppercase;
+}
+
+.topbar .hero-box1 p {
+    
+color: #fff;
+    
+font-size: 15px;
+    
+margin: 10px 0;
+    
+text-align: justify;
+}
+
+.topbar .hero-box1 .btn {
+
+display: inline-block;
+
+text-decoration: none;
+
+color: #fff;
+
+text-transform: uppercase;
+
+margin: 0 5px;
+
+border: 2px solid #fff;
+
+border-radius: 30px;
+
+padding: 10px 30px;
+
+margin-top: 25px;
+}
+
+.topbar .hero-box1 .btn-cta {
+
+background: #fff;
+
+color: #6c63ff;
+
+font-weight: 700;
+}
+
+.topbar .hero-box1 .btn-cta:hover {
+
+background: #ffffffc9;
+}
+
+.topbar .hero-box1 .btn-ghost {
+    font-weight: 700;
+}
+
+
+.topbar .hero-box1 .btn-ghost:hover{
+
+background: #ffffffc9;
+
+color: #6c63ff;
+
+font-weight: 700;
+}
+
+
+.topbar .hero-box2 {
+}
+
+.topbar .hero-box2 img {
+    width: 100%;
+    margin: 50px 0;
+}
+
+/* Services Section CSS */
+.services{
+    padding: 80px 0;
+}
+.services h2{
+    margin-bottom: 10px;
+    color: #3f3f3f;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.services .service-paragraph{
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #3f3f3f;
+}
+.services p{
+    
+margin-bottom: 20px;
+}
+.services h3{
+    
+    color: #3f3f3f;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.services .service .service1{
+    border: 2px solid #f2f2f2;
+    padding: 50px;
+    margin-right: 15px;
+}
+.services a{
+    color: #756aff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.services a:hover {
+    color: #756affb8;
+}
+
+
+/* We Lead Section CSS*/
+.lead{
+    padding: 80px 0;
+    background: url(../image/lead-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.lead .spacer{
+    
+padding: 120px 0;
+}
+.lead h2{
+    color: #3f3f3f;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.lead p{
+    margin-bottom: 15px;
+}
+.lead a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background-image: linear-gradient(to right, #1aa4fc 0%, #5d4cfd 100%);
+    color: #fff;
+    border-radius: 45px;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 0.8s ease-in-out;
+}
+.lead a:hover{
+    background: #1aa4fc;
+   
+}
+
+
+/* Counter Section CSS*/
+.counter{
+    padding: 80px 0;
+    background: url(../image/counter-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.counter h2{
+    color: #3f3f3f;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.counter .counter1{
+margin-top: 60px;
+padding: 30px;
+}
+.counter .counter1:hover{
+    background: #f6fbff;
+    transition: 0.5s linear;
+}
+.counter .counter1 h3{
+    font-size: 35px;
+}
+.counter .counter1 p{
+    color: #3f3f3f;
+    font-size: 20px;
+}
+
+
+/* Portfolio Section CSS*/
+.portfolio{
+    padding: 80px 0;
+}
+.portfolio h2{
+    color: #3f3f3f;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.portfolio p{
+    margin-bottom: 60px;
+}
+.portfolio .portfolio-bar{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.portfolio .nav-menu{
+    list-style: none;
+    text-align: center;
+    border: 1px solid #756aff;
+    display: inline-block;
+    padding: 14px 0;
+    border-radius: 50px;
+}
+.portfolio .nav-item{
+    display: inline;
+}
+.portfolio .nav-link{
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+.portfolio .nav-link:hover{
+    background: #756aff;
+    color: #fff;
+    transition: 0.5s linear;
+}
+
+.portfolio-item {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    position: relative;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-hover-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -51%);
+    background: rgba(43, 131, 211, 0.6);
+    width: 93.8%;
+    height: 90.8%;
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+
+.portfolio-item:hover .portfolio-hover-item {
+    opacity: 1;
+}
+
+.portfolio-hover-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.portfolio-hover-icon a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 53px;
+    background: rgba(92, 157, 222, 0.5);
+    border-radius: 50%;
+    color: #fff;
+
+}
+
+.portfolio-hover-icon .first-icon {
+    margin-right: 3px;
+}
+
+.portfolio-hover-icon .second-icon {
+    margin-left: 3px;
+}
+
+
+/* Subscribe Section CSS*/
+.subscribe{
+    padding: 80px 0;
+    background: linear-gradient(to right, #5964fee6 0%, #19bafbed 100%), url(../image/subscribe-bg.png);
+}
+.subscribe h2{
+    color: #fff;
+    font-size: 35px;
+}
+.subscribe p{
+    color: #fff;
+}
+.subscribe form{
+    text-align: center;
+    margin-top: 45px;
+}
+.subscribe .form-element{
+    display: inline;
+    background: #fff;
+    padding: 10px 0 10px 20px;
+    border-radius: 50px;
+}
+.subscribe .form-name{
+    border: none;
+    border-right: 1px solid;
+    font-size: 18px;
+    outline: none;
+}
+.subscribe .form-email{
+    border: none;
+    margin-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.subscribe .form-btn{
+    padding: 9px 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    background-image: linear-gradient(to right, #1aa4fc 0%, #5d4cfd 100%);
+    color: #fff;
+    outline: none;
+    transition: all 0.8s ease-in-out;
+}
+
+.subscribe .form-btn:hover {
+    background: #1aa4fc;
+    cursor: pointer;
+}
+
+
+/* Testimonials Section CSS */
+.testimonial{
+    padding: 80px 0;
+}
+.testimonial h2{
+    color: #3f3f3f;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.testimonial p{
+    margin-bottom: 60px;
+}
+.testimonial .testimonials{}
+.testimonial .testimonial-1{
+    background: url(../image/testimonial-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding: 30px 20px;
+    margin: 15px;
+    border: 1px solid #fafafa;
+    border-bottom: 2px solid #1ca1fb;
+}
+.testimonial .testimonial-1 .man{
+    width: 30%;
+    margin-top: 35px;
+}
+.testimonial .testimonial-1 h3{
+    font-size: 28px;
+}
+.testimonial .testimonial-1 .star{
+    width: 25%;
+}
+.testimonial .testimonial-1 .fa{
+    background: #000;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+/* Contact Section CSS */
+.contact h2 {
+    font-size: 35px;
+    color: #5A5A5A;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.contact h2 span {
+    color: #756AFF;
+}
+
+.contact p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.contact .contact-us-box {
+    background: #EEF9FF;
+    box-sizing: border-box;
+    margin:  10px;
+    padding: 40px 40px;
+    margin-bottom: 30px;
+}
+
+.contact .contact-us-box h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.contact form {
+    width: 100%;
+}
+
+.contact input[type=text],
+.contact input[type=email] {
+    width: 91%;
+    margin: 10px;
+    padding: 12px;
+    outline: none;
+    border: 1px solid #ddd;
+    background: #FAFAFA;
+    font-size: 15px;
+}
+
+.contact input[type=submit] {
+    transition: 0.8s ease-in-out;
+}
+
+.contact input[type=submit]:hover {
+    background: #1aa4fc;
+    cursor: pointer;
+}
+
+.contact form .name-field {
+    width: 41%!important;
+}
+
+.contact form .email-field {
+    width: 41%!important;
+    
+}
+
+textarea {
+    width: 91%;
+    margin: 10px;
+    background: #FAFAFA;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 12px;
+    resize: none;
+}
+
+.contact input[type=submit] {
+    margin: 10px;
+    padding: 12px 70px;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(to right, #19A5FC, #5D4CFD);
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* Footer Section CSS */
+
+footer {
+    width: 100%;
+    float: left;
+    background: linear-gradient(to right, #515BFE, #0CB8FB);
+    padding: 30px 0;
+    font-size: 14px;
+    padding-top: 35px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer .fa {
+    float: right;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 22px;
+}
+
+footer .fa-pinterest {
+    margin-right: none!important;
+}
